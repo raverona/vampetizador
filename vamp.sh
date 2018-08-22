@@ -12,6 +12,6 @@ gsettings set org.gnome.desktop.background picture-uri file://\$HOME/$FOLDER/$IM
 
 chmod +x $HOME/$FOLDER/script.sh
 
-echo "30 12 * * 2,5 $HOME/Desktop/script.sh" > $HOME/$FOLDER/cron
+echo "30 12 * * 2,5 $HOME/$FOLDER/script.sh" > $HOME/$FOLDER/cron
 
 crontab $HOME/$FOLDER/cron
